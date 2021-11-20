@@ -23,7 +23,6 @@ You can install the released version of summarystat from
 ```{r}
 # install.packages("devtools")
 devtools::install_github("stat545ubc-2021/rPackage-JingwenZhou/summarystat")
-
 ```
 
 ## Example

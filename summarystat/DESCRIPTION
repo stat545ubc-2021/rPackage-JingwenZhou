@@ -1,19 +1,25 @@
 Package: summarystat
-Title: What the Package Does (One Line, Title Case)
-Version: 0.0.0.9000
+Title: Summary statistics of numerical variable
+Version: 0.1.0
 Authors@R: 
-    person(given = "First",
-           family = "Last",
+    person(given = "Jingwen",
+           family = "Zhou",
            role = c("aut", "cre"),
-           email = "first.last@example.com",
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+           email = "jingwen990729@gmail.com")
+Description: This package do the summary statistics of one given numerical variable across the groups of another given variable in a given dataset.
+License: MIT + file LICENSE
 Encoding: UTF-8
 LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.2
+Imports: 
+    datateachr,
+    dplyr,
+    gapminder,
+    tidyverse,
+    palmerpenguins,
+    testthat,
+    palmerpenguins
 Suggests: 
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
