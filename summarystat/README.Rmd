@@ -35,7 +35,7 @@ suppressMessages(library(tidyverse))
 suppressMessages(library(dplyr))
 suppressMessages(library(palmerpenguins))
 # Use `penguins` dataset
-result <- summary(penguins, body_mass_g, species)
+result <- summarystat::summary(penguins, body_mass_g, species)
 result
 ```
 
