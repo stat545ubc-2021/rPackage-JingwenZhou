@@ -15,9 +15,8 @@
 #' @return summarise_result: A list which contains the mean, range, median of numeric variable
 #'
 #' @examples
-#' result1 <- sumFun(apt_building, year_built, storey_height)
-#' result2 <- sumFun(penguins, body_mass_g, species)
-#' result3 <- sumFun(gapminder, lifeExp, continent)
+#' result1 <- sumFun(palmerpenguins::penguins, body_mass_g, species)
+#' result2 <- sumFun(gapminder::gapminder, lifeExp, continent)
 #'
 #' @export
 sumFun <- function(data, x, y) {

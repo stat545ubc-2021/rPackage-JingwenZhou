@@ -23,8 +23,7 @@ This function do the summary statistics of one given numerical variable
 across the groups of another given variable in a given dataset.
 }
 \examples{
-result1 <- sumFun(apt_building, year_built, storey_height)
-result2 <- sumFun(penguins, body_mass_g, species)
-result3 <- sumFun(gapminder, lifeExp, continent)
+result1 <- sumFun(palmerpenguins::penguins, body_mass_g, species)
+result2 <- sumFun(gapminder::gapminder, lifeExp, continent)
 
 }
